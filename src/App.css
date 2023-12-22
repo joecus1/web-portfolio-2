@@ -30,7 +30,11 @@ nav li a:hover {
 
 .mobile-nav {
   @apply block md:hidden fixed top-10 py-2 w-full h-full bg-gray-900 duration-500;
-} 
+}
+
+.form-field {
+  @apply block w-full bg-transparent border-2 border-[#7477FF] py-3 px-4 mb-3 max-w-lg m-auto
+}
 
 /* hero */
 h1 {

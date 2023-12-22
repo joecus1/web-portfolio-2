@@ -19,12 +19,12 @@ const About = () => {
             </p>
             <p>
               My favorite projects are those in which I can leverage AI capabilities, such as facial recognition or natural language
-              processing, to build innovative product features that delight users.
+              processing, to build innovative features that delight users.
             </p>
             <p>
-              I am most comfortable writing code in Python. I've also profesionally coded with JavaScript and have written code in an array of
-              other languages during my undergrad at Duke University. I welcome opportunities to learn new things. Learning constantly
-              is one of my favorite things about software engineering.
+              I am most comfortable writing code in Python and I've also profesionally coded with JavaScript. I have written code in an array of
+              other languages in personal projects and during my undergrad at Duke University. I welcome opportunities to learn new things. Learning constantly
+              is one of my favorite aspects of software engineering.
             </p>
             <p>
               In my free time, I like to read, lift weights, ski, play video games, and play music.

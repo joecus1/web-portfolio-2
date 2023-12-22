@@ -1,4 +1,5 @@
 import React from "react";
+import EmailForm from "./features/EmailForm";
 
 const Contact = () => {
   return (
@@ -7,14 +8,8 @@ const Contact = () => {
         <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[200px] mx-auto border-indigo-600 pb-2">
           Contact Me
         </h2>
-        <p>
-          I love meeting new people, so if you'd like to connect some time feel free to reach out.
-        </p>
-
-        <p className="py-2">
-          <span className="font-bold">Email:</span> joecusano57@gmail.com
-        </p>
       </div>
+      <EmailForm />
     </section>
   );
 };
