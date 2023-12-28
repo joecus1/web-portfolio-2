@@ -33,7 +33,7 @@ nav li a:hover {
 }
 
 .form-field {
-  @apply block w-full bg-transparent border-2 border-[#7477FF] py-3 px-4 mb-3 max-w-lg m-auto
+  @apply block w-full bg-primary border-2 border-[#7477FF] py-3 px-4 mb-3 max-w-lg m-auto
 }
 
 /* hero */

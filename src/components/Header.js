@@ -19,9 +19,9 @@ const Header = () => {
           <li>
             <a href="/#about">About</a>
           </li>
-          {/* <li>
+          <li>
             <a href="/#projects">Projects</a>
-          </li> */}
+          </li>
           <li>
             <a href="/#contact">Contact</a>
           </li>
@@ -34,7 +34,7 @@ const Header = () => {
       >
         <div className="flex flex-col space-y-2 px-5">
           <MobileMenuButton clickFunction={handleToggle} text={"About"} link={"/#about"}/>
-          {/* <MobileMenuButton clickFunction={handleToggle} text={"Projects"} link={"/#projects"}/> */}
+          <MobileMenuButton clickFunction={handleToggle} text={"Projects"} link={"/#projects"}/>
           <MobileMenuButton clickFunction={handleToggle} text={"Contact"} link={"/#contact"}/>
         </div>
       </nav>
