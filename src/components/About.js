@@ -22,7 +22,7 @@ const About = () => {
               processing, to build innovative features that delight users.
             </p>
             <p>
-              I am most comfortable writing code in Python and I've also profesionally coded with JavaScript. I have written code in an array of
+              I am most comfortable writing code in Python and also code professionally with JavaScript. I have written code in an array of
               other languages in personal projects and during my undergrad at Duke University. I welcome opportunities to learn new things. Learning constantly
               is one of my favorite aspects of software engineering.
             </p>
