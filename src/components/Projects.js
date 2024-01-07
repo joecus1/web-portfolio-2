@@ -2,6 +2,7 @@ import React from "react";
 import neuralNet from '../assets/images/neural-net.png'
 import particleCollide from '../assets/images/particle-collide.png'
 import ragApp from '../assets/images/rag-app.png'
+import boomerangApp from '../assets/images/boomerang-app.png'
 
 const Projects = () => {
     const projects = [
@@ -9,19 +10,30 @@ const Projects = () => {
         img: ragApp,
         title: "rag-app",
         desc: "A Generative AI chatbot I built using the RAG approach. Pulled context from PDFs to answer questions.",
-        code: "https://github.com/joecus1/ai-pdf-chatbot",
+        link: "https://github.com/joecus1/ai-pdf-chatbot",
+        buttonText: "Code",
+      },
+      {
+        img: boomerangApp,
+        title: "boomerang-app",
+        desc: "Created a full-stack mobile application using React-Native and using Google Firebase \
+        to implement database storage, authentication, and geolocation.",
+        link: "https://drive.google.com/drive/folders/1HMmQz59Nhm3b7QOAeafnXbjzp40Y2KWK?usp=drive_link",
+        buttonText: "Demos",
       },
       {
         img: neuralNet,
         title: "neural-net",
         desc: "A neural net I built from scratch in Python using just the numpy library.",
-        code: "https://github.com/joecus1/homemade-neural-net",
+        link: "https://github.com/joecus1/homemade-neural-net",
+        buttonText: "Code",
       },
       {
         img: particleCollide,
         title: "particle-collision",
         desc: "A simulation of particles colliding built with Python",
-        code: "https://github.com/joecus1/particle-collision-simulation",
+        link: "https://github.com/joecus1/particle-collision-simulation",
+        buttonText: "Code",
       },
     ]; 
 
@@ -59,12 +71,12 @@ const Projects = () => {
                     Demo
                   </a> */}
                   <a
-                    href={project.code}
+                    href={project.link}
                     className="px-5 py-2 bg-blue-700 hover:bg-blue-800 font-bold"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Code
+                    {project.buttonText}
                   </a>
                 </div>
               </div>
