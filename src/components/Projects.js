@@ -16,8 +16,7 @@ const Projects = () => {
       {
         img: boomerangApp,
         title: "boomerang-app",
-        desc: "Created a full-stack mobile application using React-Native and using Google Firebase \
-        to implement database storage, authentication, and geolocation.",
+        desc: "Created a full-stack mobile application using React-Native and using Google Firebase to implement database storage, authentication, and geolocation.",
         link: "https://drive.google.com/drive/folders/1HMmQz59Nhm3b7QOAeafnXbjzp40Y2KWK?usp=drive_link",
         buttonText: "Demos",
       },
