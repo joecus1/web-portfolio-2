@@ -17,7 +17,7 @@ const Hero = () => {
           </h1>
 
           <p className="py-5">
-            Full-stack developer interested primarily in backend work and leveraging AI within software products.
+            Full-stack developer interested primarily in backend work.
           </p>
 
           <div className="flex py-5 space-x-5">

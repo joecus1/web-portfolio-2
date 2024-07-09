@@ -14,20 +14,18 @@ const About = () => {
               Hi, my name is Joe Cusano. I am a software engineer. 
             </p>
             <p>
-              I am currently working as an advanced app engineering analyst at Accenture, where I've built a solid professional foundation.
+              I am currently a software developer at Glenview Capital, where I work on a performance/risk analytics application. At Glenview, I've led the design
+              and development of a new data pipeline to source prices for securities.
+            </p>
+            <p>
+              Previously, I worked at Accenture
+              as an advanced app engineering analyst. I designed and implemented one of Accenture's first generative AI applications within a client organization.
               I prefer backend work, but am open to developing across the full stack.
             </p>
             <p>
-              My favorite projects are those in which I can leverage AI capabilities, such as facial recognition or natural language
-              processing, to build innovative features that delight users.
-            </p>
-            <p>
-              I am most comfortable writing code in Python and also code professionally with JavaScript. I have written code in an array of
+              I am most comfortable writing code in Python and C#. I have written code in an array of
               other languages in personal projects and during my undergrad at Duke University. I welcome opportunities to learn new things. Learning constantly
               is one of my favorite aspects of software engineering.
-            </p>
-            <p>
-              In my free time, I like to read, lift weights, ski, play video games, and play music.
             </p>
           </div>
         </div>
