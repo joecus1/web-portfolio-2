@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import MobileMenuButton from "./features/MobileMenuButton";
 
+const RESUME_LINK = "https://docs.google.com/document/d/1XKtRdVUXJtQ8FeaMcfzshqj7OZB_g-tB/edit?usp=sharing&ouid=104859597841488291910&rtpof=true&sd=true"
+
 const Header = () => {
   const [toggle, setToggle] = useState(false);
 
@@ -25,6 +27,9 @@ const Header = () => {
           <li>
             <a href="/#contact">Contact</a>
           </li>
+          <li>
+            <a href={RESUME_LINK}>Resume</a>
+          </li>
         </ul>
       </nav>
 
@@ -36,6 +41,7 @@ const Header = () => {
           <MobileMenuButton clickFunction={handleToggle} text={"About"} link={"/#about"}/>
           <MobileMenuButton clickFunction={handleToggle} text={"Projects"} link={"/#projects"}/>
           <MobileMenuButton clickFunction={handleToggle} text={"Contact"} link={"/#contact"}/>
+          <MobileMenuButton clickFunction={handleToggle} text={"Resume"} link={RESUME_LINK}/>
         </div>
       </nav>
 
